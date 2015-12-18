@@ -1,0 +1,193 @@
+*, html {
+	margin: 0;
+}
+
+/*Design Body*/    
+body {  
+}
+        
+        
+/*Design Navigation*/
+#Nav1 {
+        text-transform: none ;      /*Grossbuchstaben*/
+       	font-size: 20px;                /**/
+       	font-family: Century Gothic;           /*Schriftart*/
+       	text-align: right;               /*Textausrichtung*/
+      	background-attachment: scroll;
+	margin-top: 30px;
+}
+
+#Nav1 ul {
+	list-style: none;               /*Aufzählungspunke ausblenden*/
+        position: absolute;
+}
+
+#Nav1 li {
+	float: left;
+        width: 200px;                        /*Breite des Links*/
+        height: ;
+                	
+	padding-top:8px;                /* Innenabstand oben  */
+        padding-bottom:8px;             /* Innenabstand unten */
+        padding-left: 8px;              /* Innenabstand links */
+        padding-right: 10px;            /* Innenabstand rechts */
+              		      
+        margin-top: 10px;                /* Außenabstand oben  */
+       	margin-left:10px;
+        margin-right: 0px;
+    	    
+}
+        
+#Nav1 a:link    { 
+        color:white;   
+        text-decoration:none; 
+}
+        
+#Nav1 a:visited { 
+        color:black;  
+        text-decoration:line-through; 
+}
+        
+#Nav1 a:focus   {                                                   /*Wenn übertastatur gewählt wird*/
+        text-decoration: underline;  
+}                                 
+    
+#Nav1 a:hover   {                                                  /*Wenn Maus auf dem Link ist*/
+       	color:Black;  
+        text-decoration: blink;
+        text-shadow: 4px 4px silver; 
+}
+                                          
+#Nav1 a:active  {                                                  /*Wenn Link angeklickt wird*/
+        color:White;  
+}
+	
+#login {
+	border: solid;
+	height: 10px;
+	width: 100%;
+}
+    
+#layout {
+		
+	Background-image: url('layout.jpg');
+		
+        float: left;
+        width: 900px;
+        height: 300px;
+        border: 1px solid;
+        opacity:0.9;        
+
+        padding-bottom: 0px;
+        padding-top: 0px;
+        padding-right: 0;
+        padding-left: ;
+
+        margin-top: 20px;               /*Aussenabstand oben*/
+        margin-bottom: 0px;            /*Aussenabstand unten*/
+        margin-right: 100px;              /*Aussenabstand rechts*/
+        margin-left: 300px;               /*Aussenabstand links*/
+}                                 
+            
+#linie{
+	margin-top: 50px;
+	margin-left: 550px;
+	margin-bottom: 50px;
+	width: 400px;	
+	height: 8px;
+}
+           
+#box1{
+        text-transform: none ;      /*Grossbuchstaben*/
+        font-size: 100%;                /**/
+        font-family: Century Gothic; 
+        float: left;
+        background-color: silver;
+        opacity: 0.7;
+        
+        width: 220px;
+        height: 220px;
+        
+        padding-left: 30px;
+        padding-top: 20px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        
+        border-style: solid;
+        border-color: black;
+        border-left: 1px;
+        border-top : 1px;
+        border-right: 1px;
+        border-bottom: 1px;
+        
+        margin-top: 10px;               /*Aussenabstand oben*/
+        margin-bottom: 10px;            /*Aussenabstand unten*/
+        margin-right: ;              /*Aussenabstand rechts*/
+        margin-left: 300px;               /*Aussenabstand links*/
+}
+#box2{
+        text-transform: none ;      /*Grossbuchstaben*/
+        font-size: 100%;                /**/
+        font-family: Century Gothic; 
+        float: left;
+        background-color: silver;
+        opacity: 0.7;
+        
+        width: 220px;
+        height: 220px;
+        
+        padding-left: 30px;
+        padding-top: 20px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        
+        border-style: solid;
+        border-color: black;
+        border-left: 1px;
+        border-top : 1px;
+        border-right: 1px;
+        border-bottom: 1px;
+        
+        margin-top: 10px;               /*Aussenabstand oben*/
+        margin-bottom: 10px;            /*Aussenabstand unten*/
+        margin-right: ;              /*Aussenabstand rechts*/
+       	margin-left: 30px;               /*Aussenabstand links*/
+}
+
+#box3{
+        text-transform: none ;      /*Grossbuchstaben*/
+        font-size: 100%;                /**/
+        font-family: Century Gothic; 
+        float: left;
+        background-color: silver;
+        opacity: 0.7;
+        
+        width: 220px;
+        height: 220px;
+        
+        padding-left: 30px;
+        padding-top: 20px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        
+        border-style: solid;
+        border-color: black;
+        border-left: 1px;
+        border-top : 1px;
+        border-right: 1px;
+        border-bottom: 1px;
+        
+        margin-top: 10px;               /*Aussenabstand oben*/
+        margin-bottom: 10px;            /*Aussenabstand unten*/
+        margin-right: ;              /*Aussenabstand rechts*/
+        margin-left: 30px;               /*Aussenabstand links*/
+}
+#footer{
+	border: solid;	
+
+	float: bottom;
+
+}
+        
+        
+    
