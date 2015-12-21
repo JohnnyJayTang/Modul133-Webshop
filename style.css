@@ -6,7 +6,11 @@
 body {  
 }
         
-        
+#login {
+	border: solid;
+	width: 100%;
+}
+       
 /*Design Navigation*/
 #Nav1 {
         text-transform: none ;      /*Grossbuchstaben*/
@@ -61,12 +65,6 @@ body {
 #Nav1 a:active  {                                                  /*Wenn Link angeklickt wird*/
         color:White;  
 }
-	
-#login {
-	border: solid;
-	height: 10px;
-	width: 100%;
-}
     
 #layout {
 		
@@ -86,9 +84,23 @@ body {
         margin-top: 20px;               /*Aussenabstand oben*/
         margin-bottom: 0px;            /*Aussenabstand unten*/
         margin-right: 100px;              /*Aussenabstand rechts*/
-        margin-left: 300px;               /*Aussenabstand links*/
+        margin-left: 300px;               /*Aussenabstand links*/          
 }                                 
-            
+         
+#warenkorb {
+	border: solid;
+	margin-top: 20px;
+	margin-right: 400px;
+	float: right;
+	
+	width: 300px;
+	height: 500px;
+}
+
+#cart1{
+	border: solid;
+}
+   
 #linie{
 	margin-top: 50px;
 	margin-left: 550px;
@@ -97,44 +109,35 @@ body {
 	height: 8px;
 }
            
-#box1{
+#box{
         text-transform: none ;      /*Grossbuchstaben*/
+	text-align: center;
         font-size: 100%;                /**/
         font-family: Century Gothic; 
+		
         float: left;
-        background-color: silver;
-        opacity: 0.7;
-        
-        width: 220px;
-        height: 220px;
-        
-        padding-left: 30px;
-        padding-top: 20px;
-        padding-right: 30px;
-        padding-bottom: 10px;
-        
-        border-style: solid;
-        border-color: black;
-        border-left: 1px;
-        border-top : 1px;
-        border-right: 1px;
-        border-bottom: 1px;
-        
-        margin-top: 10px;               /*Aussenabstand oben*/
-        margin-bottom: 10px;            /*Aussenabstand unten*/
-        margin-right: ;              /*Aussenabstand rechts*/
+        width: 900px;
+        opacity:0.9;        
+
+        padding-bottom: 0px;
+        padding-top: 0px;
+        padding-right: 0;
+        padding-left: ;
+
+        margin-top: 20px;               /*Aussenabstand oben*/
+        margin-bottom: 0px;            /*Aussenabstand unten*/
+        margin-right: 100px;              /*Aussenabstand rechts*/
         margin-left: 300px;               /*Aussenabstand links*/
-}
-#box2{
+}             
+
+#angebot1, #angebot2, #angebot3, #angebot4, #angebot5, #angebot6{
         text-transform: none ;      /*Grossbuchstaben*/
         font-size: 100%;                /**/
         font-family: Century Gothic; 
-        float: left;
         background-color: silver;
-        opacity: 0.7;
         
-        width: 220px;
-        height: 220px;
+        width: 280px;
+        height: 400px;
         
         padding-left: 30px;
         padding-top: 20px;
@@ -148,45 +151,17 @@ body {
         border-right: 1px;
         border-bottom: 1px;
         
-        margin-top: 10px;               /*Aussenabstand oben*/
-        margin-bottom: 10px;            /*Aussenabstand unten*/
-        margin-right: ;              /*Aussenabstand rechts*/
-       	margin-left: 30px;               /*Aussenabstand links*/
+        margin-top: 30px;               /*Aussenabstand oben*/
+        margin-bottom: 20px;            /*Aussenabstand unten*/
+        margin-right: 0px;              /*Aussenabstand rechts*/
+       	margin-left: 65px;               /*Aussenabstand links*/
 }
 
-#box3{
-        text-transform: none ;      /*Grossbuchstaben*/
-        font-size: 100%;                /**/
-        font-family: Century Gothic; 
-        float: left;
-        background-color: silver;
-        opacity: 0.7;
-        
-        width: 220px;
-        height: 220px;
-        
-        padding-left: 30px;
-        padding-top: 20px;
-        padding-right: 30px;
-        padding-bottom: 10px;
-        
-        border-style: solid;
-        border-color: black;
-        border-left: 1px;
-        border-top : 1px;
-        border-right: 1px;
-        border-bottom: 1px;
-        
-        margin-top: 10px;               /*Aussenabstand oben*/
-        margin-bottom: 10px;            /*Aussenabstand unten*/
-        margin-right: ;              /*Aussenabstand rechts*/
-        margin-left: 30px;               /*Aussenabstand links*/
-}
 #footer{
 	border: solid;	
-
-	float: bottom;
-
+	float: none;
+	margin-bottom: 0px;
+	position: absolute;
 }
         
         
